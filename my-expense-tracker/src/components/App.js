@@ -8,6 +8,7 @@ import CategoryTransactions from './CategoryTransactions'; // Importing the Cate
 import EditCategory from './EditCategory'; // Importing the EditCategory component
 import PrivateRoute from '../utils/PrivateRoute'; // Importing the PrivateRoute component to protect certain routes
 import Header from './Header'; // Importing the Header component
+import Budget from './Budget'; // Import the new Budget component
 
 import '../styles.css'; // Importing the stylesheet
 
@@ -56,6 +57,11 @@ const App = () => {
                     <Route path="/edit-category/:categoryId" element={
                         <PrivateRoute>
                             <EditCategory />
+                        </PrivateRoute>
+                    } />
+                    <Route path="/budget" element={
+                        <PrivateRoute>
+                            <Budget />
                         </PrivateRoute>
                     } />
                 </Routes>

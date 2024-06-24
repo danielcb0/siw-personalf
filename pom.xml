@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.pairlearning</groupId>
+	<groupId>it.uniroma3</groupId>
 	<artifactId>expense-tracker-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>expense-tracker-api</name>
